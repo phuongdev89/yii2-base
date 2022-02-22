@@ -22,7 +22,7 @@
 	"require" : {
 		"php" : ">=7",
 		"ext-pcntl": "*",
-		"yiisoft/yii2" : "*",
+		"yiisoft/yii2" : "*"
     },
 	"autoload" : {
 		"psr-4" : {
