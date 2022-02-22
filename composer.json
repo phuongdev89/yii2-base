@@ -1,0 +1,32 @@
+{
+	"name" : "phuong17889/yii2-base",
+	"description" : "Yii2 Base for navatech application",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"phuong17889",
+		"base"
+	],
+	"license" : "MIT",
+	"homepage" : "https://lephuong.org",
+	"support" : {
+		"source" : "https://github.com/phuong17889/yii2-base"
+	},
+	"authors" : [
+		{
+			"name" : "Le Phuong",
+			"email" : "phuong17889@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7",
+		"ext-pcntl": "*",
+		"yiisoft/yii2" : "*",
+    },
+	"autoload" : {
+		"psr-4" : {
+			"phuong17889\\base\\" : "src/"
+		}
+	}
+}
