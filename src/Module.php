@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by phuong17889.
  * @project yii2-basic
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -16,7 +16,7 @@ class Module extends \yii\base\Module
 {
 
     /**
-     * Check if has navatech\multilanguage
+     * Check if has phuong17889\multilanguage
      * @return bool
      */
     public static function hasMultiLanguage()
@@ -25,16 +25,16 @@ class Module extends \yii\base\Module
     }
 
     /**
-     * Check if has navatech\setting
+     * Check if has phuong17889\setting
      * @return bool
      */
     public static function hasSetting()
     {
-        return (Yii::$app->hasModule('setting') && Yii::$app->getModule('setting') instanceof \phuong17889\setting\Module && in_array('setting', array_keys(Yii::$app->components)) && Yii::$app->components['setting']['class'] == \navatech\setting\Setting::className());
+        return (Yii::$app->hasModule('setting') && Yii::$app->getModule('setting') instanceof \phuong17889\setting\Module && in_array('setting', array_keys(Yii::$app->components)) && Yii::$app->components['setting']['class'] == \phuong17889\setting\Setting::className());
     }
 
     /**
-     * Check if has navatech\role
+     * Check if has phuong17889\role
      * @return bool
      */
     public static function hasUserRole()
