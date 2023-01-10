@@ -1,32 +1,35 @@
 {
-	"name" : "phuong17889/yii2-base",
-	"description" : "Yii2 Base for phuong17889 application",
+	"name" : "phuongdev89/yii2-base",
+	"description" : "Yii2 Base for phuongdev89 application",
 	"type" : "yii2-extension",
 	"keywords" : [
 		"yii2",
 		"extension",
-		"phuong17889",
+		"phuongdev89",
 		"base"
 	],
 	"license" : "MIT",
-	"homepage" : "https://lephuong.org",
 	"support" : {
-		"source" : "https://github.com/phuong17889/yii2-base"
+		"source" : "https://github.com/phuongdev89/yii2-base"
 	},
 	"authors" : [
 		{
-			"name" : "Le Phuong",
-			"email" : "phuong17889@gmail.com"
+			"name" : "Phuong Dev",
+			"email" : "phuongdev89@gmail.com"
 		}
 	],
 	"require" : {
-		"php" : ">=7",
+		"php" : ">=7.1",
 		"ext-pcntl": "*",
+        "ext-curl": "*",
 		"yiisoft/yii2" : "*"
     },
 	"autoload" : {
 		"psr-4" : {
-			"phuong17889\\base\\" : "src/"
+			"phuongdev89\\base\\" : "src/"
 		}
+	},
+	"extra" : {
+		"bootstrap" : "phuongdev89\\base\\Bootstrap"
 	}
 }
