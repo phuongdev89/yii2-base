@@ -22,8 +22,10 @@
 		"php" : ">=7.1",
 		"ext-pcntl": "*",
         "ext-curl": "*",
+		"ext-bcmath": "*",
+		"ext-json": "*",
 		"yiisoft/yii2" : "*"
-    },
+	},
 	"autoload" : {
 		"psr-4" : {
 			"phuongdev89\\base\\" : "src/"
